@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="app.js" defer></script>
     <title>MANDEVU VILLAGE BANK</title>
   </head>
   <body>
@@ -11,29 +12,85 @@
     <nav>
       <!---nav-bar items -->
       <div><strong>ChimunziBank+</strong></div>
-      <div class="nav-links">
+      <div class="nav-links off-screen-menu" id="nav-links-mobile">
         <a href="#">Home</a>
         <a href="#">Apply Loan</a>
         <a href="#">My Group</a>
         <a href="#">Contact Us</a>
       </div>
-      <button class="login-btn">Login</button>
+      <button class="login-btn mb-btn">Login</button>
+
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <!---ending nav-bar items -->
     </nav>
     <!---ending is the nav-bar -->
 
     <!---Starting Hero section-->
     <section class="Hero">
-      <img src="img/IMG_5321-1-scaled.jpg" alt="Communities Women" />
       <div class="Hero-text">
-        <h1>Empowering Communities Through Smart Savings and Loans</h1>
+        <h1 id="off-screen-text">
+          Empowering Communities Through Smart Savings & Loans
+        </h1>
         <button class="btn-primary">Join Group</button>
         <div class="links">
           <a href="#">Log in &rarr;</a>
           <a href="#">Learn More</a>
         </div>
       </div>
+      <img src="img/village.png" alt="Communities Women" />
     </section>
     <!---ending Hero section-->
+
+    <!----Starting about section-->
+    <section class="About-section">
+      <h2>What is village Banking ?</h2>
+      <div class="about-text">
+        <p>
+          " Village banking is a way for people who know and trust each
+          other(like friends,coworkers , or neighbors) to save and borrow money
+          together , without needing a bank. A typical group has 5 to 10
+          members.They set their own rules, elect leaders , and meet once in a
+          week normally a friday to give out loans , track repayments and track
+          there savings.Everyone contributes , and members can apply for loans
+          from the group's shared savings. At the end of the cycle (usually 12
+          months) members get back their savings plus a share of the interest
+          earned .The more you save and credit the more you earn."
+        </p>
+        <p>
+          " Traditionally , all of this is tracked using notebooks , cash boxes
+          , or spreadsheets - but that comes with risk and confusion .Chimunzi
+          digitizes it all: saving , lending , record-keeping, and payouts,
+          securely from your phone in the comfort of your home."
+        </p>
+      </div>
+    </section>
+    <!---Ending about section-->
+    <!---Details section-->
+    <section class="details-section">
+      <h2>From Confusion To Clarity ,The Chimunzi Way</h2>
+      <p>
+        we're replacing risk and confusion with clarity , structure , and
+        transparency for every savings group in Zambia.
+      </p>
+      <div>
+        <h2>No More Boxes , whatsApp Groups , Excel and Book Drama</h2>
+        <p>
+          Traditional village banking runs on memory , whatsapp , messages and
+          books that get lost.<br />
+          With Chimunzi , your group's records are digitized , accurate, and
+          always up to date.No more confusion about who saved what or who owns
+          what.
+        </p>
+        <img src="img/Screenshot_20250610-210021.jpg" alt="" />
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+    <!--ending details section-->
   </body>
 </html>
